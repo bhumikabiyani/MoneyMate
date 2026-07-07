@@ -2,6 +2,18 @@
 
 MoneyMate is a self-hosted, private finance tracking and expense splitting mobile application designed for personal use, partners, roommates, and family groups.
 
+## 💡 Why MoneyMate?
+
+I wanted a simple expense sharing app customized for real-life usage.
+
+Existing apps worked well but had limitations:
+- daily expense limits
+- premium restrictions
+- less personalization
+
+So I built MoneyMate:
+a Splitwise-inspired tracker with personal finance features.
+
 <p align="center">
   <img src="./assests/homePage.jpeg" width="30%" alt="MoneyMate Dashboard" />
   <img src="./assests/screen1.jpeg" width="30%" alt="MoneyMate Onboarding" />
@@ -95,10 +107,31 @@ To generate a standalone Android APK:
 
 ---
 
+## 🔐 Privacy & Data Ownership
+
+MoneyMate is designed as a self-hosted personal finance tracker.
+
+Unlike traditional apps where your financial data lives on a company's servers, MoneyMate lets you connect your own Supabase database.
+
+Authentication is intentionally not included in the default setup because the app is designed for:
+
+- personal use
+- couples
+- small trusted groups
+- self-hosted deployments
+
+Every user creates their own:
+- Supabase project
+- database
+- environment variables
+
+Your data stays in your own infrastructure.
+
+If you plan to expose this as a public app, adding Supabase Auth + Row Level Security is recommended.
+
 ## Security Disclaimer
 
 > [!IMPORTANT]
 > This application is built as a **self-hosted, private finance manager**. 
 > - **Authentication is intentionally not included** to facilitate direct, zero-friction usage across devices without complex login flows.
 > - Access control is managed entirely by keeping your Supabase Project API URL and anon keys secret.
-> - **Do not commit your `.env` file** to public repositories. Ensure that you restrict your database access if necessary.
