@@ -2,12 +2,22 @@
 
 MoneyMate is a self-hosted, private finance tracking and expense splitting mobile application designed for personal use, partners, roommates, and family groups.
 
+<p align="center">
+  <img src="./assests/homePage.jpeg" width="30%" alt="MoneyMate Dashboard" />
+  <img src="./assests/screen1.jpeg" width="30%" alt="MoneyMate Onboarding" />
+  <img src="./assests/analytics.jpeg" width="30%" alt="MoneyMate Analytics" />
+</p>
+
 ## Features
 
 - 👥 **Split Expenses**: Seamlessly split group costs, compute balances, and settle debts with a built-in debt-minimization engine.
+  <br/><img src="./assests/expensesShare.jpeg" width="30%" alt="Split Expenses" />
 - 📂 **Personal Finance Groups**: Maintain isolated groups for shared splitting (e.g. Home expenses) or individual private logs.
+  <br/><img src="./assests/groupCreation.jpeg" width="30%" alt="Group Creation" />
 - 📊 **Category Analytics**: Gain deep insights into your spending habits with clean category analytics and charts.
+  <br/><img src="./assests/analytics.jpeg" width="30%" alt="Category Analytics" />
 - 💰 **Saved Instead Tracker**: Build financial discipline by logging impulse spending that you resisted, tracking your self-control.
+  <br/><img src="./assests/impulseControl.jpeg" width="30%" alt="Saved Instead Tracker" />
 - 📱 **Android Native Widgets**: Track your group balance directly on your phone's home screen with modern Android widgets.
 
 ## Tech Stack
@@ -51,6 +61,8 @@ To configure your database backend:
 3. Configure your environment variables in a `.env` file.
 
 See the detailed guide at [SUPABASE_SETUP.md](./docs/SUPABASE_SETUP.md).
+
+For customization guidance (e.g. adding more people, styling themes, or categories), see [CUSTOMIZATION.md](./docs/CUSTOMIZATION.md).
 
 ### 4. Run Locally
 
