@@ -23,16 +23,20 @@ a Splitwise-inspired tracker with personal finance features.
 ## Features
 
 - 👥 **Split Expenses**: Seamlessly split group costs, compute balances, and settle debts with a built-in debt-minimization engine.
-  <br/><img src="./assests/expensesShare.jpeg" width="30%" alt="Split Expenses" />
+  <br/>
+  <img src="./assests/expensesShare.jpeg" width="30%" alt="Split Expenses" />
   
 - 📂 **Personal Finance Groups**: Maintain isolated groups for shared splitting (e.g. Home expenses) or individual private logs.
-  <br/><img src="./assests/groupCreation.jpeg" width="30%" alt="Group Creation" />
+  <br/>
+  <img src="./assests/groupCreation.jpeg" width="30%" alt="Group Creation" />
   
 - 📊 **Category Analytics**: Gain deep insights into your spending habits with clean category analytics and charts.
-  <br/><img src="./assests/analytics.jpeg" width="30%" alt="Category Analytics" />
+  <br/>
+  <img src="./assests/analytics.jpeg" width="30%" alt="Category Analytics" />
   
 - 💰 **Saved Instead Tracker**: Build financial discipline by logging impulse spending that you resisted, tracking your self-control.
-  <br/><img src="./assests/impulseControl.jpeg" width="30%" alt="Saved Instead Tracker" />
+  <br/>
+  <img src="./assests/impulseControl.jpeg" width="30%" alt="Saved Instead Tracker" />
   
 - 📱 **Android Native Widgets**: Track your group balance directly on your phone's home screen with modern Android widgets.
 
