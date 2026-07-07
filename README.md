@@ -83,6 +83,28 @@ To generate a standalone Android APK:
 
 ---
 
+## 🔐 Privacy & Data Ownership
+
+MoneyMate is designed as a self-hosted personal finance tracker.
+
+Unlike traditional apps where your financial data lives on a company's servers, MoneyMate lets you connect your own Supabase database.
+
+Authentication is intentionally not included in the default setup because the app is designed for:
+
+- personal use
+- couples
+- small trusted groups
+- self-hosted deployments
+
+Every user creates their own:
+- Supabase project
+- database
+- environment variables
+
+Your data stays in your own infrastructure.
+
+If you plan to expose this as a public app, adding Supabase Auth + Row Level Security is recommended.
+
 ## Security Disclaimer
 
 > [!IMPORTANT]
