@@ -2,6 +2,18 @@
 
 MoneyMate is a self-hosted, private finance tracking and expense splitting mobile application designed for personal use, partners, roommates, and family groups.
 
+## 💡 Why MoneyMate?
+
+I wanted a simple expense sharing app customized for real-life usage.
+
+Existing apps worked well but had limitations:
+- daily expense limits
+- premium restrictions
+- less personalization
+
+So I built MoneyMate:
+a Splitwise-inspired tracker with personal finance features.
+
 ## Features
 
 - 👥 **Split Expenses**: Seamlessly split group costs, compute balances, and settle debts with a built-in debt-minimization engine.
