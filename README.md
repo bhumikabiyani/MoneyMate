@@ -89,4 +89,3 @@ To generate a standalone Android APK:
 > This application is built as a **self-hosted, private finance manager**. 
 > - **Authentication is intentionally not included** to facilitate direct, zero-friction usage across devices without complex login flows.
 > - Access control is managed entirely by keeping your Supabase Project API URL and anon keys secret.
-> - **Do not commit your `.env` file** to public repositories. Ensure that you restrict your database access if necessary.
